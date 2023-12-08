@@ -11,7 +11,7 @@ import AWS from '../assets/aws.png';
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-[#8892b0]">
+    <div name="skills" className="w-full h-screen pt-auto bg-[#0a192f] text-[#8892b0]">
         {/* Container */}
         <div className="max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div>
@@ -58,4 +58,4 @@ const Skills = () => {
   );
 };
 
-export default Skills
+export default Skills;

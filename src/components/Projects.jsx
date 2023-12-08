@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-[#8892b0] bg-[#0a192f]"
+      className="w-full md:h-screen pt-8 text-[#8892b0] bg-[#0a192f]"
     >
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
