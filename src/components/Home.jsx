@@ -32,8 +32,8 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <Link to="projects" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 mx-auto flex items-center hover:bg-[#0abab5] hover:border-[#0abab5]">
+          <Link to="projects" smooth={true} duration={600}>
+            <button className="text-white rounded-lg group border-2 px-6 py-3 my-2 mx-auto flex items-center hover:bg-[#0abab5] hover:border-[#0abab5]">
               View Projects
               <span className="group-hover:rotate-90 duration-400">
                 <HiArrowNarrowRight className="ml-3" />
