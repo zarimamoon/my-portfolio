@@ -11,9 +11,10 @@ import AWS from '../assets/aws.png';
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen pt-auto bg-[#0a192f] text-[#8892b0]">
+    <div name="skills" className="w-full h-screen bg-[#0a192f] text-[#8892b0]">
         {/* Container */}
-        <div className="max-w-[1000px] p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1000px] px-8 mx-auto flex flex-col justify-center w-full h-full">
+            <div className="pb-8">
             <div>
                 <p className="text-4xl font-bold inline border-b-4 border-[#0abab5]">Skills</p>
                 <p className="py-4">These are the technologies I've worked with</p>
@@ -53,6 +54,7 @@ const Skills = () => {
                 <p className="my-4">AWS</p>
             </div>
             </div>
+        </div>
         </div>
     </div>
   );
