@@ -7,6 +7,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+        <div className="pb-8">
         <div className="text-left mx-auto">
           <p className="text-[#0abab5] text-lg">Hi, my name is</p>
           <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
@@ -41,6 +42,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
+      </div>
       </div>
     </div>
   );
