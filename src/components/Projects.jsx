@@ -1,6 +1,7 @@
 import React from "react";
 import MyFavShop from "../assets/my-favshop.png";
-import Countries from "../assets/Countries.png"
+import Countries from "../assets/Countries.png";
+import DrumKit from "../assets/DrumKit.png";
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
           <p className="py-6">Check out some of my recent projects</p>
         </div>
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${MyFavShop})` }}
@@ -59,6 +60,30 @@ const Projects = () => {
                   </button>
                 </a>
                 <a href="https://github.com/zarimamoon/Always-Be-Coding-Countries">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${DrumKit})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://playdrums-withz.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/zarimamoon/Drum-Kit">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
